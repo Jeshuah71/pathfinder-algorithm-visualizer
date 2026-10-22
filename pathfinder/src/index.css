@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0b1220;
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+.stats {
+  margin-top: 24px;
+  padding: 20px;
+  background: #172b40;
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
+
+.stats h3 {
+  color: #2dd4bf;
+  margin-top: 0;
+}
+
+.stats p {
+  color: #cbd5e1;
+}
+

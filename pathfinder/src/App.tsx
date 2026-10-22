@@ -398,9 +398,44 @@ function App() {
         )}
 
         <div className="legend">
-          <span> Start</span>
-          <span> End</span>
-          <span> Wall</span>
+          <div className="legend-item">
+            <span
+              style={{
+                display: "inline-block",
+                width: "16px",
+                height: "16px",
+                backgroundColor: "#10b981",
+                borderRadius: "4px",
+              }}
+            />
+            <span>Start</span>
+          </div>
+
+          <div className="legend-item">
+            <span
+              style={{
+                display: "inline-block",
+                width: "16px",
+                height: "16px",
+                backgroundColor: "#f59e0b",
+                borderRadius: "4px",
+              }}
+            />
+            <span>End</span>
+          </div>
+
+          <div className="legend-item">
+            <span
+              style={{
+                display: "inline-block",
+                width: "16px",
+                height: "16px",
+                backgroundColor: "#94a3b8",
+                borderRadius: "4px",
+              }}
+            />
+            <span>Wall</span>
+          </div>
         </div>
       </section>
     </main>

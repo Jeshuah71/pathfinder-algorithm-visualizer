@@ -92,11 +92,15 @@ header p {
 
 .legend {
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 22px;
-  font-size: 13px;
-  color: #cbd5e1;
+  align-items: center;
+  gap: 35px; /* Space between Start, End, and Wall */
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the colored square and text */
 }
 
 @media (max-width: 600px) {
@@ -141,4 +145,18 @@ header p {
   border-radius: 8px;
   color: white;
   cursor: pointer;
+}
+/* Start position */
+.start-box {
+  background-color: #10b981;
+}
+
+/* End position */
+.end-box {
+  background-color: #f59e0b;
+}
+
+/* Wall */
+.wall-box {
+  background-color: #94a3b8;
 }
